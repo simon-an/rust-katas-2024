@@ -1,0 +1,10 @@
+[workspace]
+resolver = "2"
+members = ["cqrs-booking"]
+
+
+[workspace.dependencies]
+darkbird = "6.2.4"
+tokio = { version = "1", features = ["full"] }
+serde = { version = "1", features = ["derive"] }
+chrono = { version = "0.4", features = ["serde"] }

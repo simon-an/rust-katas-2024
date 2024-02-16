@@ -1,0 +1,12 @@
+[package]
+name = "cqrs-booking"
+version = "0.1.0"
+edition = "2021"
+authors = []
+
+
+[dependencies]
+darkbird = { workspace = true }
+tokio = { workspace = true }
+serde = { workspace = true }
+chrono = { workspace = true }
